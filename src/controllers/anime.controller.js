@@ -5,6 +5,7 @@ import { Rating } from '../models/rating.js';
 import { Source_Site } from '../models/source_site.js';
 
 export const getAnime = async (req,res) => {
+    //Comentario
     try {
         const response = await Anime.findAll(
             {
